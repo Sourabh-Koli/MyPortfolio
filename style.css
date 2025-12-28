@@ -170,3 +170,66 @@ p {
 		opacity: 1;
 	}
 }
+/* ================= RESPONSIVE DESIGN ================= */
+@media (max-width: 992px) {
+	.header {
+		padding: 20px 30px;
+	}
+
+	h1 {
+		font-size: 2.5rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.hero-content {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.hero-text {
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 2.2rem;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+	}
+
+	.buttons {
+		flex-direction: column;
+	}
+
+	.btn {
+		width: 200px;
+		margin: auto;
+	}
+}
+
+@media (max-width: 576px) {
+	.header {
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	nav a {
+		margin: 10px;
+		display: inline-block;
+	}
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	p {
+		font-size: 1rem;
+	}
+
+	.profile-img img {
+		width: 160px;
+		height: 160px;
+	}
+}

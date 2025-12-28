@@ -35,7 +35,8 @@ nav a {
 	transition: 0.3s;
 }
 
-nav a:hover, .logo:hover {
+nav a:hover,
+.logo:hover {
 	color: #00eaff;
 }
 
@@ -75,6 +76,7 @@ p {
 	line-height: 1.6;
 	margin-bottom: 30px;
 }
+
 .profile-img img {
 	width: 230px;
 	height: 230px;
@@ -170,66 +172,21 @@ p {
 		opacity: 1;
 	}
 }
+
 /* ================= RESPONSIVE DESIGN ================= */
-@media (max-width: 992px) {
-	.header {
-		padding: 20px 30px;
-	}
-
-	h1 {
-		font-size: 2.5rem;
-	}
-}
-
-@media (max-width: 768px) {
-	.hero-content {
-		flex-direction: column;
-		text-align: center;
-	}
-
-	.hero-text {
-		text-align: center;
-	}
-
-	h1 {
-		font-size: 2.2rem;
-	}
-
-	h2 {
-		font-size: 1.5rem;
-	}
-
-	.buttons {
-		flex-direction: column;
-	}
-
-	.btn {
-		width: 200px;
-		margin: auto;
-	}
-}
-
 @media (max-width: 576px) {
 	.header {
 		flex-direction: column;
-		gap: 10px;
+		padding: 5px 10px;
 	}
-
-	nav a {
-		margin: 10px;
-		display: inline-block;
+	nav{
+		margin-top: 0.5rem;
 	}
-
-	h1 {
-		font-size: 2rem;
+	main{
+		flex-direction: column-reverse;
+		padding-top: 2rem;
 	}
-
-	p {
-		font-size: 1rem;
-	}
-
-	.profile-img img {
-		width: 160px;
-		height: 160px;
+	main p{
+		text-align: justify;
 	}
 }

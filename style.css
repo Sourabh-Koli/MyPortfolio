@@ -181,6 +181,7 @@ p {
 	}
 	nav{
 		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
 	}
 	.main{
 		flex-direction: column-reverse;

@@ -182,11 +182,11 @@ p {
 	nav{
 		margin-top: 0.5rem;
 	}
-	main{
+	.main{
 		flex-direction: column-reverse;
 		padding-top: 2rem;
 	}
-	main p{
+	.main p{
 		text-align: justify;
 	}
 }

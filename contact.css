@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+	min-height: 100vh;
+	background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+	color: white;
+	display: flex;
+	flex-direction: column;
+}
+
+/* ================= HEADER ================= */
+.header {
+	display: flex;
+	justify-content: space-between;
+	background: rgba(0, 0, 0, 0.3);
+	align-items: center;
+	padding: 20px 60px;
+	animation: slideDown 1s ease;
+}
+
+.logo {
+	font-size: 1.8rem;
+}
+
+nav a {
+	margin-left: 25px;
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	transition: 0.3s;
+}
+
+nav a:hover,
+.logo:hover {
+	color: #00eaff;
+}
+
+/* ================= MAIN ================= */
+.main {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	padding: 40px 20px;
+}
+
+.contact-container {
+	max-width: 1000px;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.25);
+	padding: 40px;
+	border-radius: 15px;
+	backdrop-filter: blur(6px);
+}
+
+/* Left */
+h1 {
+	font-size: 2.5rem;
+	margin-bottom: 15px;
+	color: #00eaff;
+}
+
+.contact-info p {
+	color: #e0e0e0;
+	margin-bottom: 25px;
+}
+
+.contact-info ul {
+	list-style: none;
+}
+
+.contact-info li {
+	margin-bottom: 15px;
+	font-size: 1rem;
+}
+.connect{
+	margin-top: 3rem;
+}
+.connect a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	margin-bottom: 1rem;
+}
+
+.connect a:hover{
+	color:#00eaff;
+}
+
+
+
+/* ================= FOOTER ================= */
+.footer {
+	text-align: center;
+	padding: 15px;
+	background: rgba(0, 0, 0, 0.3);
+	font-size: 0.9rem;
+	animation: fadeIn 2s ease;
+}
+
+
+
+/* ================= RESPONSIVE DESIGN ================= */
+@media (max-width: 576px) {
+	.header {
+		flex-direction: column;
+		padding: 5px 10px;
+	}
+
+	nav {
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+
+	h1{
+		font-size: xx-large;
+	}
+}

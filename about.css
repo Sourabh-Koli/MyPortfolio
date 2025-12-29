@@ -89,9 +89,9 @@ nav a:hover,
 	margin-bottom: 8px;
 }
 
-.about-content ul {
-	margin: 2rem auto;
-}
+.about-content ul{
+				margin: 2rem auto;
+			}
 
 .btn {
 	display: inline-block;
